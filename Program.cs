@@ -1,4 +1,9 @@
+using Microsoft.AspNetCore.Mvc.Routing;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<HttpClient>(o =>
+new HttpClient {BaseAddress = new Uri("http://localhost:5183/")
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
