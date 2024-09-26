@@ -20,7 +20,7 @@ public class CategoriaService
  {
     return await _httpClient.GetFromJsonAsync<Categoria>($"/api/Categoria/{id}");
  }
- public async Task<Categoria> CreateCAtegoria(Categoria categoria)
+ public async Task<Categoria> CreateCategoria(Categoria categoria)
  {
     var response = await _httpClient.PostAsJsonAsync("/api/Categoria", categoria);
     return await response.Content.ReadFromJsonAsync<Categoria>();
