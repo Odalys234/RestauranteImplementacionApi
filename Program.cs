@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Mvc.Routing;
+using RestauranteImplementacionAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<HttpClient>(o =>
 new HttpClient {BaseAddress = new Uri("http://localhost:5183/")
 });
+
+builder.Services.AddScoped<CategoriaService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
