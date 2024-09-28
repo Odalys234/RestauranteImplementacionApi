@@ -6,7 +6,7 @@ namespace RestauranteImplementacionAPI.Services;
 public class ClienteService
 {
      private readonly HttpClient _httpClient;
- private ClienteService(HttpClient httpClient){
+ public ClienteService(HttpClient httpClient){
     _httpClient = httpClient;
  }
 
@@ -26,7 +26,7 @@ public class ClienteService
  }
  public async Task UpdateCliente(Cliente cliente)
  {
-    await _httpClient.PutAsJsonAsync($"/api/Cliente/{cliente.Id}", cliente);
+    await _httpClient.PutAsJsonAsync($"/api/Cliente/{cliente.id}", cliente);
  }
  public async Task DeleteCliente(int id)
  {

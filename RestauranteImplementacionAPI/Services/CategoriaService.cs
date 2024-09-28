@@ -7,7 +7,7 @@ namespace RestauranteImplementacionAPI.Services;
 public class CategoriaService
 {
  private readonly HttpClient _httpClient;
- private CategoriaService(HttpClient httpClient){
+ public CategoriaService(HttpClient httpClient){
     _httpClient = httpClient;
  }
 
@@ -18,19 +18,19 @@ public class CategoriaService
 
  public async Task<Categoria> GetCategoriaById(int id)
  {
-    return await _httpClient.GetFromJsonAsync<Categoria>($"/api/Categoria/{id}");
+    return await _httpClient.GetFromJsonAsync<Categoria>($"api/Categoria/{id}");
  }
  public async Task<Categoria> CreateCategoria(Categoria categoria)
  {
-    var response = await _httpClient.PostAsJsonAsync("/api/Categoria", categoria);
+    var response = await _httpClient.PostAsJsonAsync("api/Categoria", categoria);
     return await response.Content.ReadFromJsonAsync<Categoria>();
  }
  public async Task UpdateCategoria(Categoria categoria)
  {
-    await _httpClient.PutAsJsonAsync($"/api/Categoria/{categoria.id}", categoria);
+    await _httpClient.PutAsJsonAsync($"api/Categoria/{categoria.id}", categoria);
  }
  public async Task DeleteCategoria(int id)
  {
-    await _httpClient.DeleteAsync($"/api/Categoria/{id}");
+    await _httpClient.DeleteAsync($"api/Categoria/{id}");
  }
 }

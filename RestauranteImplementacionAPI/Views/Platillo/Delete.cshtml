@@ -1,0 +1,59 @@
+﻿@model Platillo
+
+<h2 class="text-center my-4" style="color: #FF4500;">Eliminar Platillo</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-4 mb-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <h4 class="text-center mb-4" style="color: #FF4500;">¿Seguro que quieres eliminar este registro?</h4>
+            <dl class="row">
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.nombrePlatillo)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.nombrePlatillo)
+                </dd>
+                
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.descripcion)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.descripcion)
+                </dd>
+                
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.precio)
+                </dt>
+                <dd class="col-sm-8">
+                    $@Html.DisplayFor(model => model.precio)
+                </dd>
+                
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.categoriaId)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.categoriaId)
+                </dd>
+                
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Imagen
+                </dt>
+                <dd class="col-sm-8">
+                    <img src="@Model.imagen" alt="Imagen de @Model.nombrePlatillo" style="max-width: 100px;" />
+                </dd>
+            </dl>
+        </div>
+        
+        <div class="text-center">
+            <form asp-action="Delete" method="post" class="d-inline">
+                <input type="hidden" asp-for="id" />
+                <button type="submit" class="btn btn-danger mx-2" style="width: 150px;">
+                    Eliminar
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-outline-dark mx-2" style="border-color: #FF4500; color: #FF4500; width: 150px;">
+                Regresar
+            </a>
+        </div>
+    </div>
+</div>

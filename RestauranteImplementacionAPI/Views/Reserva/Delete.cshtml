@@ -1,0 +1,58 @@
+﻿@model Reserva
+
+<h2 class="text-center my-4" style="color: #FF4500;">Eliminar Reserva</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-4 mb-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <h4 class="text-center mb-4" style="color: #FF4500;">¿Seguro que quieres eliminar esta reserva?</h4>
+            <dl class="row">
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Cliente ID
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.clienteId)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Fecha de Reserva
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.fechaReserva)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Hora de Reserva
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.horaReserva)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Número de Personas
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.numeroPersonas)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Mesa Asignada
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.mesaAsignada)
+                </dd>
+            </dl>
+        </div>
+        <div class="text-center">
+            <form asp-action="Delete" method="post" class="d-inline">
+                <input type="hidden" asp-for="id" />
+                <button type="submit" class="btn btn-danger mx-2" style="width: 150px;">
+                    Eliminar
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-outline-dark mx-2" style="border-color: #FF4500; color: #FF4500; width: 150px;">
+                Regresar
+            </a>
+        </div>
+    </div>
+</div>

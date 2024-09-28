@@ -1,0 +1,55 @@
+﻿@model Reserva
+
+<h2 class="text-center my-4" style="color: #FF4500;">Detalles de Reserva</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow-sm p-4 mb-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <h4 class="text-center mb-4" style="color: #FF4500;">Información de la Reserva</h4>
+            <dl class="row">
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Cliente ID
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.clienteId)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Fecha de Reserva
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.fechaReserva)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Hora de Reserva
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.horaReserva)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Número de Personas
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.numeroPersonas)
+                </dd>
+
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    Mesa Asignada
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.mesaAsignada)
+                </dd>
+            </dl>
+        </div>
+        <div class="text-center">
+            <a asp-action="Edit" asp-route-id="@Model.id" class="btn btn-dark mx-2" style="background-color: #FF4500; border-color: #FF4500; color: white; width: 150px;">
+                Editar
+            </a>
+            <a asp-action="Index" class="btn btn-outline-dark mx-2" style="border-color: #FF4500; color: #FF4500; width: 150px;">
+                Regresar
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model Platillo
+
+<h2 class="text-center my-4" style="color: #FF4500;">Editar Platillo</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <form asp-action="Edit">
+                <input type="hidden" asp-for="id" />
+                
+                <div class="form-group">
+                    <label asp-for="nombrePlatillo" class="control-label" style="color: #FF4500; font-weight: bold;">Nombre del Platillo</label>
+                    <input asp-for="nombrePlatillo" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese el nombre del platillo" />
+                    <span asp-validation-for="nombrePlatillo" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="descripcion" class="control-label" style="color: #FF4500; font-weight: bold;">Descripción</label>
+                    <textarea asp-for="descripcion" class="form-control" style="border: 1px solid #FF4500;" rows="3" placeholder="Ingrese la descripción del platillo"></textarea>
+                    <span asp-validation-for="descripcion" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="precio" class="control-label" style="color: #FF4500; font-weight: bold;">Precio</label>
+                    <input asp-for="precio" class="form-control" style="border: 1px solid #FF4500;" type="number" step="0.01" placeholder="Ingrese el precio del platillo" />
+                    <span asp-validation-for="precio" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="categoriaId" class="control-label" style="color: #FF4500; font-weight: bold;">Categoría</label>
+                    <input asp-for="categoriaId" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese el ID de la categoría" />
+                    <span asp-validation-for="categoriaId" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="imagen" class="control-label" style="color: #FF4500; font-weight: bold;">URL de la Imagen</label>
+                    <input asp-for="imagen" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese la URL de la imagen" />
+                    <span asp-validation-for="imagen" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group text-center mt-4 d-flex justify-content-between">
+                    <input type="submit" value="Guardar" class="btn btn-dark" style="background-color: #FF4500; border-color: #FF4500; color: white; width: 150px;" />
+                    <a asp-action="Index" class="btn btn-outline-dark" style="border-color: #FF4500; color: #FF4500; width: 150px;">Volver a la lista</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

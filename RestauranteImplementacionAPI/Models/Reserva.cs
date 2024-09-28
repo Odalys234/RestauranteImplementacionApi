@@ -4,11 +4,11 @@ namespace RestauranteImplementacionAPI.Models;
 
 public class Reserva
 {
-            public int Id { get; set; }
-        public int ClienteId { get; set; } 
-        public DateTime FechaReserva { get; set; }
-        public TimeSpan HoraReserva { get; set; }
-        public int NumeroPersonas { get; set; }
-        public string MesaAsignada { get; set; }
+            public int id { get; set; }
+        public int clienteId { get; set; } 
+        public DateTime fechaReserva { get; set; }
+        public TimeSpan horaReserva { get; set; }
+        public int numeroPersonas { get; set; }
+        public string mesaAsignada { get; set; }
 
 }

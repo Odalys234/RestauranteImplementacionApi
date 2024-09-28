@@ -37,6 +37,13 @@ namespace RestauranteImplementacionAPI.Controllers
             var categoria = await _categoriaService.GetCategoriaById(id);
             return View(categoria);
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async  Task<ActionResult>Edit (int id, Categoria categoria)
+        {
+            await _categoriaService.UpdateCategoria(categoria);
+            return RedirectToAction(nameof(Index));
+        }
  public async Task<ActionResult>Delete(int id)
     {
         var categoria = await _categoriaService.GetCategoriaById(id);

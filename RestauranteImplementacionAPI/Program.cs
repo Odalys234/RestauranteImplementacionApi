@@ -7,6 +7,10 @@ new HttpClient {BaseAddress = new Uri("http://localhost:5183/")
 });
 
 builder.Services.AddScoped<CategoriaService>();
+builder.Services.AddScoped<ClienteService>();
+builder.Services.AddScoped<PlatilloService>();
+builder.Services.AddScoped<ReservaService>();
+builder.Services.AddScoped<PedidoService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
