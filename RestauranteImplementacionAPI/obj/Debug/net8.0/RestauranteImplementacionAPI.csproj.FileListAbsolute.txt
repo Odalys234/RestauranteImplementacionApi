@@ -29,3 +29,34 @@ C:\Users\MINEDUCYT\Desktop\RestauranteImplementacionApi\RestauranteImplementacio
 C:\Users\MINEDUCYT\Desktop\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.pdb
 C:\Users\MINEDUCYT\Desktop\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.genruntimeconfig.cache
 C:\Users\MINEDUCYT\Desktop\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\ref\RestauranteImplementacionAPI.dll
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.staticwebassets.runtime.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.exe
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.deps.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.runtimeconfig.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.dll
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\bin\Debug\net8.0\RestauranteImplementacionAPI.pdb
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.AssemblyInfo.cs
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.RazorAssemblyInfo.cache
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.RazorAssemblyInfo.cs
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.sourcelink.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets\msbuild.RestauranteImplementacionAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.RestauranteImplementacionAPI.props
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RestauranteImplementacionAPI.props
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RestauranteImplementacionAPI.props
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\scopedcss\bundle\RestauranteImplementacionAPI.styles.css
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\scopedcss\projectbundle\RestauranteImplementacionAPI.bundle.scp.css
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.dll
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\refint\RestauranteImplementacionAPI.dll
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.pdb
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\RestauranteImplementacionAPI.genruntimeconfig.cache
+C:\Users\MINEDUCYT\Desktop\Nueva carpeta (4)\RestauranteImplementacionApi\RestauranteImplementacionAPI\obj\Debug\net8.0\ref\RestauranteImplementacionAPI.dll

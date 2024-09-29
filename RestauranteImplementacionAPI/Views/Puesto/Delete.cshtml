@@ -1,0 +1,36 @@
+﻿@model Puesto
+
+<h2 class="text-center my-4" style="color: #FF4500;">Eliminar Puesto</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-4 mb-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <h4 class="text-center mb-4" style="color: #FF4500;">¿Seguro que quieres eliminar este registro?</h4>
+            <dl class="row">
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+                <dt class="col-sm-4" style="font-weight: bold; color: #FF4500;">
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Descripcion)
+                </dd>
+            </dl>
+        </div>
+        <div class="text-center">
+            <form asp-action="Delete" method="post" class="d-inline">
+                <input type="hidden" asp-for="id" />
+                <button type="submit" class="btn btn-danger mx-2" style="width: 150px;">
+                    Eliminar
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-outline-dark mx-2" style="border-color: #FF4500; color: #FF4500; width: 150px;">
+                Regresar
+            </a>
+        </div>
+    </div>
+</div>
