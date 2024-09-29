@@ -12,6 +12,7 @@ builder.Services.AddScoped<PlatilloService>();
 builder.Services.AddScoped<ReservaService>();
 builder.Services.AddScoped<PedidoService>();
 builder.Services.AddScoped<PuestoService>();
+builder.Services.AddScoped<EmpleadoService>();
 
 
 // Add services to the container.
