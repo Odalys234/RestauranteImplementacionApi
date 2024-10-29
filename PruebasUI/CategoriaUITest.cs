@@ -93,6 +93,25 @@ public void EliminarCategoria()
     var listaCategorias = driver.FindElement(By.XPath("//table"));
     Assert.DoesNotContain("Categoría Modificada", listaCategorias.Text);
 }
+[Fact]
+public void VerDetallesCategoria()
+{
+    driver.Navigate().GoToUrl("http://localhost:5267/Categoria");
+  
+    var listaCategorias = driver.FindElement(By.XPath("//table"));
+    if (!listaCategorias.Text.Contains("Categoría de Prueba"))
+    {
+        driver.Navigate().GoToUrl("http://localhost:5267/Categoria/Create");
+        wait.Until(drv => drv.FindElement(By.Id("nombre"))).SendKeys("Categoría de Prueba");
+        driver.FindElement(By.Id("descripcion")).SendKeys("Descripción de prueba para la categoría");
+        driver.FindElement(By.Id("button")).Click();
+        wait.Until(drv => drv.Url == "http://localhost:5267/Categoria");
+    }
+    var btnDetalles = wait.Until(drv => drv.FindElement(By.XPath("//a[contains(@href, '/Categoria/Details')]")));
+    btnDetalles.Click();
+    var detalleCategoria = wait.Until(drv => drv.FindElement(By.XPath("//div[contains(@class, 'card')]")));
+    Assert.Contains("Categoría Modificada", detalleCategoria.Text);
+}
     public void Dispose()
     {
         driver.Quit();
