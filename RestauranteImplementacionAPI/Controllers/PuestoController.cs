@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using RestauranteImplementacionAPI.Models;
 using RestauranteImplementacionAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RestauranteImplementacionAPI.Controllers
 {
+     [Authorize]
     public class PuestoController : Controller
     {
           private readonly PuestoService _puestoService;

@@ -1,11 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RestauranteImplementacionAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RestauranteImplementacionAPI.Controllers;
-
+[Authorize]
 public class HomeController : Controller
 {
+    
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)

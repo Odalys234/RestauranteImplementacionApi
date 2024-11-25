@@ -162,7 +162,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav {
-  padding-left: 18%;
+  padding-left: 2%;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -1004,4 +1004,6 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
+
+
 /*# sourceMappingURL=style.css.map */

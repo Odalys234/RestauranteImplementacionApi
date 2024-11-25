@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sn44tXl+haM=",
+  "dgSpecHash": "u/cn8vTOJAkeuX4uvD8lDDIO6gGVUqDId8FpyOKlnSr2yNiHAbN/I7kJF/0tji5W2fYfcs3pNk3QiHwqLzsW7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion2\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
+  "projectFilePath": "C:\\Users\\MINEDUCYT\\Desktop\\Nueva carpeta (3)\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

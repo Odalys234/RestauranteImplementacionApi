@@ -4,9 +4,11 @@ using RestauranteImplementacionAPI.Services;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RestauranteImplementacionAPI.Controllers
 {
+     [Authorize]
     public class PlatilloController : Controller
     {
         private readonly PlatilloService _platilloService;
