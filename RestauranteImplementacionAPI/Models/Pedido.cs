@@ -8,7 +8,10 @@ namespace RestauranteImplementacionAPI.Models
         public int? id { get; set; }
           [Required(ErrorMessage = "El nombre del cliente es obligatorio.")]
 
-         public string apellido { get; set; }
+        public string nombre { get; set; }
+        [Required(ErrorMessage = "El nombre del cliente es obligatorio.")]
+
+        public string apellido { get; set; }
          [Required(ErrorMessage = "El apellido del cliente es obligatorio.")]
         public string gmail { get; set; }
          

@@ -30,6 +30,7 @@ builder.Services.AddScoped<PedidoService>();
 builder.Services.AddScoped<PuestoService>();
 builder.Services.AddScoped<EmpleadoService>();
 
+
 builder.Services.AddHttpClient();  
 
 // Configuración de controladores y vistas

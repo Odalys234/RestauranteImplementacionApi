@@ -1,0 +1,46 @@
+@model Usuario
+
+<h2 class="text-center my-4" style="color: #FF4500;">Crear Usuario</h2>
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm p-4" style="border: 1px solid #FF4500; border-radius: 10px;">
+            <form asp-action="Create">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="Username" class="control-label" style="color: #FF4500; font-weight: bold;">Username</label>
+                    <input asp-for="Username" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese el nombre de usuario" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label" style="color: #FF4500; font-weight: bold;">Contraseña</label>
+                    <input asp-for="Password" type="password" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese la contraseña" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Role" class="control-label" style="color: #FF4500; font-weight: bold;">Rol</label>
+                    <select asp-for="Role" class="form-control" style="border: 1px solid #FF4500;">
+                        <option value="">Seleccione un rol</option>
+                        <option value="Admin">Admin</option>
+                        <option value="Usuario">Usuario</option>
+                        <option value="Editor">Editor</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+
+                <div class="form-group text-center mt-4">
+                    <button id="button" type="submit" class="btn btn-dark mx-2" style="background-color: #FF4500; border-color: #FF4500; color: white; width: 150px;">
+                        Guardar
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-dark mx-2" style="border-color: #FF4500; color: #FF4500; width: 150px;">
+                        Volver a la lista
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
