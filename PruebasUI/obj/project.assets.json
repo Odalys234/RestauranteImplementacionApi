@@ -5583,11 +5583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
       "projectName": "PruebasUI",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
+      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\PruebasUI\\PruebasUI.csproj",
       "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\PruebasUI\\obj\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\PruebasUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5662,7 +5662,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

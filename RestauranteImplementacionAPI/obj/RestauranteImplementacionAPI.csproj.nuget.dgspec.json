@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj": {}
+    "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj": {
+    "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj",
         "projectName": "RestauranteImplementacionAPI",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\RestauranteImplementacionAPI.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\Implementacion nueva restauranteApi\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\NuevaImplementacion\\RestauranteImplementacionApi\\RestauranteImplementacionAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
