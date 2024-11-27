@@ -2,11 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using RestauranteImplementacionAPI.Models;
 using RestauranteImplementacionAPI.Services;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 
 namespace RestauranteImplementacionAPI.Controllers
 {
-     [Authorize]
     public class ReservaController : Controller
     {
         private readonly ReservaService _reservaService;

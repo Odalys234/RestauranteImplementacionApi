@@ -27,10 +27,16 @@
                 </div>
                 
                 <div class="form-group">
-                    <label asp-for="categoriaId" class="control-label" style="color: #FF4500; font-weight: bold;">Categoría</label>
-                    <input asp-for="categoriaId" class="form-control" style="border: 1px solid #FF4500;" placeholder="Ingrese el ID de la categoría" />
-                    <span asp-validation-for="categoriaId" class="text-danger"></span>
-                </div>
+    <label asp-for="categoriaId" class="control-label">Categoría</label>
+    <select asp-for="categoriaId" class="form-control">
+        <option value="">Seleccione una categoría</option>
+        @foreach (var categoria in ViewBag.Categorias)
+        {
+            <option value="@categoria.id">@categoria.nombre</option>
+        }
+    </select>
+    <span asp-validation-for="categoriaId" class="text-danger"></span>
+</div>
                 
                 <div class="form-group">
                     <label asp-for="imagen" class="control-label" style="color: #FF4500; font-weight: bold;">URL de la Imagen</label>
